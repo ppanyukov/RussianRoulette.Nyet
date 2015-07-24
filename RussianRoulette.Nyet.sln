@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{00EB9A2F-6515-48C9-B5F9-5C641DF4451B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4D53699D-A795-44CE-A33B-730CE8FECCDE}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RussianRoulette.Nyet", "src\RussianRoulette.Nyet\RussianRoulette.Nyet.xproj", "{F5A2741D-A053-4710-8669-04D701973D48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5A2741D-A053-4710-8669-04D701973D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A2741D-A053-4710-8669-04D701973D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A2741D-A053-4710-8669-04D701973D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5A2741D-A053-4710-8669-04D701973D48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5A2741D-A053-4710-8669-04D701973D48} = {00EB9A2F-6515-48C9-B5F9-5C641DF4451B}
+	EndGlobalSection
+EndGlobal
